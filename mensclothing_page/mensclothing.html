@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <title> Sport Sort </title>
+  <link rel="icon" href="../pictures/logo.png">
+
+  <!-- Добавляем CSS стиль для main.html из main.css -->
+
+  <link rel="stylesheet" href="mensclothing.css">
+
+</head>
+
+
+<body>
+
+<!-- Перевод страницы через JS -->
+<script src="../js/changelang.js"> </script>
+
+<!-- Тег <select> динамической длины через JS -->
+<script src="../js/resizeSelect.js"> </script>
+
+<!-- Реализация поиска товаров через JS -->
+<script src="../js/search.js"> </script>
+
+  <div class="flex_div">
+
+  <div class="topbanner_div">
+    <img src="../pictures/logo.png" alt="LOGO" width="250">
+    <h1 style="font-size: 85px"> Sport Sort </h1>
+    <h2 style="font-size: 30px"> <p lang-attr=topbanner1> Дешево и сердито </p> </h2>
+
+    <div style="text-align: left">
+      <h2 lang-attr=langcur style="margin: 0px; margin-left: 0px">Язык</h2>
+      <select id="langSelect" onchange="changeLang(); resizeSelect(this)">
+        <option value="ru" selected>Русский</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+  </div>
+
+  <input type="text" id="search" placeholder="🔍" />
+
+  <div class="grid_div">
+    <div class="item">
+      <div class="gridinside_div">
+      <img src="pictures/nikejacket.png" alt="Nike" width="300" height="300">
+      </div>
+      <p lang-attr="nikejacket"> Куртка Nike </p>
+      <p> 77.77 AZN </p>
+    </div>
+    <div class="item">
+      <div class="gridinside_div">
+      <img src="pictures/adidasjacket.png" alt="Adidas" width="300" height="300">
+      </div>
+      <p lang-attr="adidasjacket"> Куртка Adidas </p>
+      <p> 99.99 AZN </p>
+    </div>
+    <div class="item">
+      <div class="gridinside_div">
+      <img src="pictures/northfacetshirt.png" alt="The North Face" width="300" height="300">
+      </div>
+      <p lang-attr="tnfTshirt"> Майка The North Face </p>
+      <p> 39.99 AZN </p>
+    </div>
+    <div class="item">
+      <div class="gridinside_div">
+      <img src="pictures/nikesnickers.png" alt="Nike" width="300" height="300">
+      </div>
+      <p lang-attr="nikesnickers">  Кроссовки Nike </p>
+      <p> 54.20 AZN </p>
+    </div>
+  </div>
+
+
+
+    <div class="spacer_div" style="margin: 60px">
+    </div>
+
+  <div class="feedback_div">
+    <h1> <b lang-attr="feedback"> Отзывы </b> </h1>
+      <div class="feedbackgrid_div">
+
+        <div>
+          <div class="feedbackgridinside_div">
+            <h1> <b> John Doe </b> </h1>
+            <p lang-attr="nikejacket"> <b> Куртка Nike </b> </p>
+          </div>
+          <span class="starchecked">★</span>
+          <span class="starchecked">★</span>
+          <span class="starchecked">★</span>
+          <span class="starchecked">★</span>
+          <span class="star">★</span>
+          <p> Хорошое качество, доставили за 3 дня, рекомендую! </p>
+        </div>
+
+        <div>
+          <div class="feedbackgridinside_div">
+            <h1> <b> Anon </b> </h1>
+            <p lang-attr="tnfTshirt"> <b> Майка The North Face </b> </p>
+          </div>
+          <span class="starchecked">★</span>
+          <span class="starchecked">★</span>
+          <span class="starchecked">★</span>
+          <span class="starchecked">★</span>
+          <span class="starchecked">★</span>
+          <p> Отличное качество, оригинал, доставили за неделю </p>
+        </div>
+
+        <div>
+          <div class="feedbackgridinside_div">
+            <h1> <b> 0x5F3759DF </b> </h1>
+            <p lang-attr="nikesnickers"> <b> Кроссовки Nike </b> </p>
+          </div>
+          <span class="starchecked">★</span>
+          <span class="starchecked">★</span>
+          <span class="starchecked">★</span>
+          <span class="starchecked">★</span>
+          <span class="star">★</span>
+          <p> Very good quality, snickers looks like original </p>
+        </div>
+
+    </div>
+  </div>
+
+  <div class="copyleft_div">
+    <h1> <b style="font-size: 85px"> 🄯 </b> copyleft <h1 lang-attr=allrights> все права защищены </h1> </h1>
+  </div>
+
+  </div>
+
+</body>
+
+</html>

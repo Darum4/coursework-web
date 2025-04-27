@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <title> Sport Sort </title>
+  <link rel="icon" href="../pictures/logo.png">
+
+  <!-- Добавляем CSS стиль для main.html из main.css -->
+
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+
+<body>
+
+<!-- Перевод страницы через JS -->
+<script src="../js/changelang.js"> </script>
+
+<!-- Тег <select> динамической длины через JS -->
+<script src="../js/resizeSelect.js"> </script>
+
+<div class="flex_div">
+
+  <div class="topbanner_div">
+    <img src="../pictures/logo.png" alt="LOGO" width="250">
+    <h1 style="font-size: 85px"> Sport Sort </h1>
+    <h2 style="font-size: 30px"> <p lang-attr=topbanner1> Дешево и сердито </p> </h2>
+
+    <div style="text-align: left">
+      <h2 lang-attr=langcur style="margin: 0px">Язык</h2>
+      <select id="langSelect" onchange="changeLang(); resizeSelect(this)">
+        <option value="ru" selected>Русский</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+  </div>
+
+  <div>
+
+    <div class="empty_div" style="margin: 60px">
+    </div>
+
+
+    <!-- Переход на mensclothing.html -->
+
+    <a href="../mensclothing_page/mensclothing.html" style="text-decoration:none">
+      <div class="men_div">
+        <h1> <b lang-attr=mensclothing>Мужской отдел</b> </h1>
+        <p><h3 lang-attr=mensportcl>Мужская спортивная одежда</h3></p>
+      </div>
+    </a>
+
+    <!-- Переход на womensclothing.html -->
+
+    <div class="empty_div" style="margin: 60px">
+    </div>
+
+    <a href="../womensclothing_page/womensclothing.html" style="text-decoration:none">
+      <div class="women_div">
+        <h1> <b lang-attr=womensclothing>Женский отдел</b> </h1>
+        <p><h3 lang-attr=mensportcl>Женская спортивная одежда</h3></p>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="copyleft_div">
+    <h1> <b style="font-size: 85px"> 🄯 </b> copyleft <h1 lang-attr=allrights> все права защищены </h1> </h1>
+  </div>
+
+</div>
+
+</body>
+
+</html> <!-- КОНЕЦ ДОКУМЕНТА -->
