@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sport Sort - О нас</title>
+  <link rel="icon" href="../pictures/logo.png">
+  <link rel="stylesheet" href="aboutus.css">
+</head>
+
+<body>
+  <script src="../js/changelang.js"></script>
+  <script src="../js/resizeSelect.js"></script>
+
+  <div class="topbanner_div">
+    <img src="../pictures/logo.png" alt="LOGO" width="150">
+    <h1 style="font-size: 45px"> Sport Sort </h1>
+    <h2 style="font-size: 25px"> <p lang-attr=topbanner1> Дешево и сердито </p> </h2>
+
+      <div style="text-align: left">
+        <h2 lang-attr=langcur style="margin: 0px">Язык</h2>
+        <select id="langSelect" onchange="changeLang(); resizeSelect(this)">
+          <option value="ru" selected>Русский</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="aboutus_div">
+      <h1><b lang-attr=aboutus>О нас</b></h1>
+      <p><h3 lang-attr=aboutusdesc>Добро пожаловать в Sport Sort! Мы - ваш надежный партнер в мире спортивной одежды. Наша миссия - предоставлять качественную, стильную и доступную одежду для активного образа жизни. Наша компания стремится поддерживать спортсменов и любителей фитнеса, предлагая широкий ассортимент продукции.</h3></p>
+      <p><h3 lang-attr=aboutusdesc2>Мы гордимся нашим вниманием к деталям, экологичным подходом к производству и отличным обслуживанием клиентов. Присоединяйтесь к нам и откройте для себя мир комфорта и стиля!</h3></p>
+    </div>
+
+    <div class="aboutus_div" style="width: 50%; text-align: center;">
+      <h2 lang-attr="mail">Электронная почта</h2>
+      <h2>muradabbasov4sm@gmail.com 📧</h2>
+      <p style="margin: 25px;"></p>
+      <h2 lang-attr="location">Адрес </h2>
+      <h2> 51 Azadlıq Prospekti, Bakı📍</h2>
+    </div>
+
+    <div class="copyleft_div">
+      <h1> <b style="font-size: 65px;"> © </b> copyleft <h1 lang-attr=allrights> все права защищены </h1> </h1>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+@font-face {
+    /* https://fontesk.com/onest-typeface */
+    font-family: "OnestRegular";
+    src: url("../fonts/OnestRegular1602-hint.ttf");
+}
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    font-family: "OnestRegular";
+    word-wrap: break-word;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+p {
+    margin: 2px;
+}
+
+body {
+    background: #f57971;
+}
+
+.topbanner_div {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    background-color: #bf564e;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+select {
+    border: 4px solid rgba(207, 102, 95, .8);
+    border-radius: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fa827a;
+    text-align: left;
+    padding: 10px;
+}
+
+.flex_div {
+    min-height: 100%;
+    display: flex;
+}
+
+.aboutus_div {
+    border: 4px solid #D0F0F6;
+    border-radius: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    background-color: #ffffff;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.copyleft_div {
+    margin: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color: #bf564e;
+    color: white;
+    text-align: left;
+    padding: 0px;
+    padding-bottom: 10px;
+}
