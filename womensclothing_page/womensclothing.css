@@ -29,13 +29,8 @@ p {
 }
 
 body {
-    background: #f57971 url("pictures/test.png") no-repeat;
-    background-origin: border-box;
-    background-repeat: no-repeat;
-    background-position: left 20% top -250%;
-    background-size: 500px;
+    background: #f57971;
 }
-
 
 .topbanner_div {
 
@@ -67,7 +62,7 @@ select {
 
 
 input {
-    border: 4px solid rgba(207, 102, 95, .8);;
+    border: 4px solid rgba(207, 102, 95, .8);
     border-radius: 40px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -101,7 +96,7 @@ input {
     padding: 30px;
     border-radius: 40px;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 5px;
+    gap: 16px;
     padding: 16px;
 
 }
@@ -141,7 +136,6 @@ input {
 
 }
 
-
 .feedbackgrid_div {
     border: 10px solid #F0A1B6;
     margin-top: 5px;
@@ -149,7 +143,7 @@ input {
     background-color: rgba(240, 161, 182, .4);
     padding: 30px;
     border-radius: 40px;
-    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    grid-template-columns:;
     gap: 16px;
     padding: 16px;
 }
